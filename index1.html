@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<style>
+h2		{color:white;}
+h1		{color:red;}
+p		{color:white;}
+div.txtcenter		{text-align:center;}
+</style>
+<body style="background-color:black";>
+
+<div class="txtcenter">
+	<h1>Suspect: Jill Smith</h1>
+	<img src="youngman.png" width="300" height="400">
+	<p>Age:36</p>
+	<p>Height:5'01"</p>
+	<p>weight:73KG</p>
+	<button onclick="myFunction()">He is one of murders.</button>
+	<button onclick="history.go(-1);">Go back</button>
+	<p id="demo" style="color:red";></p>
+	<script>
+		function myFunction()
+				{
+					document.getElementById("demo").innerHTML = "You're correct!He is one of murders!!";
+				}
+	</script>
+
+</div>
+
+
+</body>
+</html>
