@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<style>
+h2		{color:white;}
+h1		{color:red;}
+p		{color:white;}
+div.txtcenter		{text-align:center;}
+</style>
+<body style="background-color:black";>
+
+<div class="txtcenter">
+	<h1>Suspect: Eve Jackson</h1>
+	<img src="oldman.png" width="200" height="300">
+	<p>Age:80</p>
+	<p>Height:4'05"</p>
+	<p>weight:57KG</p>
+	<button onclick="myFunction()">I think he is one of murders.</button>
+	<br>
+	<button onclick="window.location.href = 'index3.html';">Go next</button>
+	<p id="demo" style="color:red";></p>
+	<script>
+		function myFunction()
+				{
+					document.getElementById("demo").innerHTML = "You're wrong!!";
+				}
+	</script>
+
+</div>
+
+
+</body>
+</html>
