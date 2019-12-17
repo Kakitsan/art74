@@ -87,8 +87,8 @@ Ending.
 &lt;audio src=&quot;rain-03.mp3&quot; autoplay loop&gt;
 &lt;audio src=&quot;gravelwalk.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="7" name="Beginning" tags="" position="37,166" size="100,100">&lt;style&gt;
 	img{
-	max-width:140%;
-	max-height:140%;
+	max-width:80%;
+	max-height:80%;
 	}
 &lt;/style&gt;
 &lt;img src=coverimg.jpg&gt;
@@ -298,6 +298,8 @@ Tom eventually knows how his grandpa died, and he starts to cry and complain abo
 If he is not, he thinks he will be safe and back to his original life.
 
 End.
+
+[[Look for another end-&gt;Run]]
 &lt;audio src=&quot;creepybackground1.mp3&quot; autoplay loop&gt;</tw-passagedata><tw-passagedata pid="35" name="downstair" tags="" position="1040,2717.3333333333335" size="100,100">Here is storage room.
 Dusty and dark here.
 No time for thinking, Tom has to move to next.
